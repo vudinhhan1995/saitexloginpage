@@ -1,0 +1,14 @@
+.test{
+
+    position: absolute;
+    
+}
+body{
+    background-color: bisque;
+}
+.formlogin{
+    padding-top: 50px;
+    position: relative;
+    z-index: 1;
+    
+}
