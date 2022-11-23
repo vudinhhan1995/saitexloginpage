@@ -1,0 +1,40 @@
+ReactJS cách viết components được chia thành 2 loại:
+
+class components
+function components.
+1
+2
+3
+4
+5
+6
+7
+8
+//Function component
+function Clock(props) {
+  return (
+    <div>
+      <h1>Hello, world!</h1>
+    </div>
+  );
+}
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+//Class component
+class Clock extends React.Component {
+  render() {
+    return (
+      <div>
+        <h1>Hello, world!</h1>
+      </div>
+    );
+  }
+}
