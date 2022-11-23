@@ -6,21 +6,49 @@
     background-color: #0065c3;
     text-transform: uppercase;
     display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
     justify-content: space-between;
+    align-items: center;
+    align-content: space-between;
+    padding: 20px;
+    font-family: Sofia Pro Black,Helvetica Neue,Helvetica,Arial,sans-serif;
 }
 button{
     background-color: #0065c3;
+    color: white;
+    height: 30px;
+    width: 160px;
+    border-radius: 12px;
+    border:2px solid white;   
+    margin-right:30px ;
+    transition: width 2s;
 }
 ul{
     list-style-type: none;
     display: flex;
-    padding-left: 40px;
-}
-.logo{
-    margin-top: 9px;
-    margin-left: 50px;
-}
-.navbarright{
-    display: flex;
+    padding-left: 50px;
     
 }
+.navbarlef{
+    display: flex;
+    flex: 30%;
+}
+li{
+    padding-right: 30px;
+    color: white;
+}
+.logo{
+    margin-left: 40px;
+}
+li:hover{
+    color:burlywood;
+}
+button:hover{
+    background-color: white;
+    font-family: Sofia Pro Black,Helvetica Neue,Helvetica,Arial,sans-serif;
+    display: block;
+    color: black;
+}
+
+
