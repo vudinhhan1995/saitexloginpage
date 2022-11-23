@@ -6,8 +6,21 @@
     background-color: #0065c3;
     text-transform: uppercase;
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
 }
 button{
     background-color: #0065c3;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    padding-left: 40px;
+}
+.logo{
+    margin-top: 9px;
+    margin-left: 50px;
+}
+.navbarright{
+    display: flex;
+    
 }
