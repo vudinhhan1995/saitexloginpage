@@ -14,7 +14,7 @@
     padding: 20px;
     font-family: Sofia Pro Black,Helvetica Neue,Helvetica,Arial,sans-serif;
 }
-button{
+.nutmuahang{
     background-color: #0065c3;
     color: white;
     height: 30px;
@@ -44,7 +44,7 @@ li{
 li:hover{
     color:burlywood;
 }
-button:hover{
+.nutmuahang:hover{
     background-color: white;
     font-family: Sofia Pro Black,Helvetica Neue,Helvetica,Arial,sans-serif;
     display: block;
@@ -53,9 +53,6 @@ button:hover{
     transition-timing-function: ease-out, ease-out;
     transition-delay: 0s, 0s;
     transition-property: background-color, color;
-}
-.navbarrightonhover{
-    overflow: hidden;
 }
 
 
